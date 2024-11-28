@@ -1,0 +1,12 @@
+/* src/App.css hoặc src/index.css */
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/PlaywriteDEGrund-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  
+body{
+    font-family: 'Roboto';
+}

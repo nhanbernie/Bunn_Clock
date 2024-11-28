@@ -1,0 +1,24 @@
+.img-banner {
+    height: auto;
+    width: 100%;
+}
+
+.up-down-banner img {
+    animation: floating 3s ease-in-out infinite;
+    display: block;
+    margin: 0 auto;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(20px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}

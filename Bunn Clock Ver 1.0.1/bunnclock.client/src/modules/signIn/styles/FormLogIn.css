@@ -1,0 +1,95 @@
+:root{
+    --font-size-placeholder-log: 18px;
+    --color-title-log: #fdd635;
+    --heigh-input-log: 70px;
+    --color-border-hover-input-log: #ffe064;
+    --shadown-input-log: rgba(160, 160, 129, 0.2) 0px 7px 29px 0px;
+    --color-text-grey: #dcdcdc;
+    --color-button-log: #ffc310;
+    --box-shadown-btn: rgba(129, 126, 78, 0.25) 0px 34px 55px, rgba(211, 174, 27, 0.12) 0px -12px 30px, rgba(171, 174, 91, 0.12) 0px 4px 6px, rgba(235, 233, 157, 0.658) 0px 12px 13px, rgba(88, 88, 88, 0.09) 0px -3px 5px;
+    --font-size-error-span: 12px;
+    --color-error-span: red;
+}
+
+/* input */
+.title-bunn h3{
+    color: var(--color-title-log);
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.title-bunn h1{
+    font-size: 80px;
+    color:var(--color-title-log);
+    cursor: pointer;
+}
+.input-form-log{
+    height: var(--heigh-input-log);
+    padding-left: 30px;
+    padding-right: 60px;
+}
+.input-form-log:hover{
+    cursor: pointer;
+    border: 1px solid var(--color-border-hover-input-log);
+    transition: all 0.5s ease-out;
+}
+.input-form-log:focus{
+    box-shadow: var(--shadown-input-log);
+    border: 1px solid #ffe064;
+}
+.input-form-log::placeholder{
+    font-size: var(--font-size-placeholder-log);
+    color: var(--color-text-grey)
+}
+
+/* button */
+.btn-log{
+    background-color: var(--color-button-log);
+    color: white;
+    border: none;
+    height: 60px;
+    padding: 0px 40px;
+    font-size: 20px
+}
+.btn-log:hover{
+    box-shadow: var(--box-shadown-btn);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* forgot-passwords */
+.forgot-passwords{
+    color: #a0a0a0;
+    font-size: var(--font-size-placeholder-log);
+}
+
+/* create-account */
+.create-account{
+    font-size: 13px;
+    color: #a0a0a0
+}
+.create-account a{
+    color: #063852;
+    margin-left: 10px;
+}
+
+
+/* eye */
+.eye-password{
+    top: 12px;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--color-text-grey);
+    pointer-events: auto;
+    user-select: none;
+
+}
+
+/* error */
+.error-span{
+    font-size: var(--font-size-error-span);
+    margin-left: 32px;
+    color: var(--color-error-span)
+}

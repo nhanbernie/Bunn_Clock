@@ -1,0 +1,4 @@
+{
+    "API_SERVER": "http://localhost:3004",
+    "END_POINT": "accounts"
+}
